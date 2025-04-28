@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+  <head>    
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav/fav.ico" type="image">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>
+      <!-- bloque de título -->
+      Iris para amistades. Catálogo de helados
+      <!-- Fin del bloque de título -->
+    </title>      
+  </head>
+  <body>
+     <!-- Ir a header.html -->
+     <header>
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+          <div 
+            class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">                      
+            <ul class="nav nav-pills">
+              <li class="nav-item">              
+                <a class="nav-link" href="index.html">
+                  Página principal
+                </a> 
+              </li>              
+              <li class="nav-item">
+                <!-- Clase agregada activa -->
+                <a class="nav-link active" href="ice_cream_list.html">
+                  Catálogo de helados
+                </a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  Acerca del proyecto
+                </a> 
+              </li>
+            </ul>
+          </div> 
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" height="50" class="d-inline-block align-top" alt="">            
+          </a>         
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del header.html -->
+    <main class="pt-5 my-5">       
+      <div class="container">
+        <!-- bloque de contenido -->
+        <h1 class="pb-2 mb-0">Catálogo de helados</h1>
+          <div class="row">
+          <!-- Empieza el bucle de helado -->
+              <!-- Tarjeta de producto 0 -->
+              <div class="col-6 col-md-4 my-1">
+                <div class="card">
+                  <!-- Tomar la imagen de los archivos estáticos -->
+                  <img 
+                    class="img-fluid card-img-top" 
+                    height="400" width="300"
+                    src="img/image-holder.png"
+                  >
+                  <div class="card-body">           
+                    <h5 class="card-title">Helado de vainilla clásico</h5>
+                    <p class="card-text">
+                      <!-- La descripción ha sido truncada a las primeras 10 palabras -->
+                      Auténtico helado para los verdaderos conocedores del sabor. Si vainilla ...
+                    </p>
+                    <!-- Enlace al producto 0 -->
+                    <a class="mt-3 regular-link" href="ice_cream_detail.html">
+                      Más -->           
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin de la tarjeta de producto 0 -->
+              <!-- Tarjeta de producto 1 -->
+              <div class="col-6 col-md-4 my-1">
+                <div class="card">                  
+                  <img 
+                    class="img-fluid card-img-top" 
+                    height="400" width="300"
+                    src="img/image-holder.png"
+                  >
+                  <div class="card-body">           
+                    <h5 class="card-title">Helado de saltamontes</h5>
+                    <p class="card-text">
+                      <!-- La descripción ha sido truncada a las primeras 10 palabras -->
+                      Aderezado con saltamontes colombianos caramelizados.
+                    </p>
+                    <!-- Enlace al producto 1 -->
+                    <a class="mt-3 regular-link" href="ice_cream_detail.html">
+                      Más -->           
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin de la tarjeta de producto 1 -->
+              <!-- Tarjeta de producto 2 -->
+              <div class="col-6 col-md-4 my-1">
+                <div class="card">                  
+                  <img 
+                    class="img-fluid card-img-top" 
+                    height="400" width="300"
+                    src="img/image-holder.png"
+                  >
+                  <div class="card-body">           
+                    <h5 class="card-title">Helado de cheddar</h5>
+                    <p class="card-text">
+                      <!-- La descripción ha sido truncada a las primeras 10 palabras -->
+                      Con sabor a auténtico queso en un cono de barquillo.
+                    </p>
+                    <!-- Enlace al producto 2 -->
+                    <a class="mt-3 regular-link" href="ice_cream_detail.html">
+                      Más -->           
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin de la tarjeta de producto 2 -->
+            <!-- Fin del bucle -->
+          </div>
+        <!-- Fin del bloque de contenido -->
+      </div>      
+    </main>
+    <!-- Ir a footer.html -->
+    <footer class="border-top text-center py-3">
+      <p>© «MyKit Corp»</p>
+    </footer>
+    <!-- Fin de footer.html -->   
+  </body>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
